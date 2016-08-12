@@ -1,0 +1,16 @@
+## Title: Aye.Doomsayer
+## Notes: Doomsayer
+## Depot: Aye
+## LoadOnDemand: 1
+## Author: Benio
+## Version: 1
+## Interface: 70000
+
+#utils
+utils/Buffs.UnitCanDetectDemons.lua
+utils/Chat.lua
+
+#files
+Aye.Doomsayer.lua
+Aye.Doomsayer.options.lua
+Aye.Doomsayer.options.default.lua
