@@ -13,7 +13,7 @@ Aye.utils.Buffs.UnitCanDetectDemons = Aye.utils.Buffs.UnitCanDetectDemons or fun
 	}) do
 		local _, _, _, _, _, _, expires = UnitBuff(unitID, GetSpellInfo(buffID));
 		
-		if type(expires) =="number" and expires >0 then
+		if type(expires) =="number" then
 			return 1;
 		end;
 	end;
