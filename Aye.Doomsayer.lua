@@ -33,7 +33,7 @@ Aye.modules.Doomsayer.warn = function()
 	local t = {
 		Offline			= {t = {}, name = "Offline"},
 		Dead			= {t = {}, name = "Dead"},
-		DemonDetection	= {t = {}, name = "No Demon Detection"},
+		DemonDetection	= {t = {}, name = "No Demon Detection (can be wrong out of range)"},
 	};
 	
 	-- check subjects
