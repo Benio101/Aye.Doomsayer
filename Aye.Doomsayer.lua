@@ -151,8 +151,8 @@ Aye.modules.Doomsayer.report = function(t, subject)
 			)
 		or	(
 					(
-							Aye.db.global.PullTime.channel == "Guild"
-						or	Aye.db.global.PullTime.channel == "Officer"
+							Aye.db.global.Doomsayer.channel == "Guild"
+						or	Aye.db.global.Doomsayer.channel == "Officer"
 					)
 				and	not IsInGuild()
 			)
